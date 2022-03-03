@@ -8,7 +8,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: mini19.07 OpenWrt
+name: mini OpenWrt
 
 on:
   repository_dispatch:
