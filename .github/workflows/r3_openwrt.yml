@@ -16,7 +16,7 @@
 
 #
 
-name: r3g 21.02 OpenWrt
+name: r3 OpenWrt
 
 on:
 
@@ -38,11 +38,11 @@ env:
 
   REPO_URL: https://github.com/Lienol/openwrt
 
-  REPO_BRANCH: 21.02
+  REPO_BRANCH: 19.07
 
   FEEDS_CONF: feeds.conf.default
 
-  CONFIG_FILE: r3g.config
+  CONFIG_FILE: r3.config
 
   DIY_P1_SH: diy-part1.sh
 
