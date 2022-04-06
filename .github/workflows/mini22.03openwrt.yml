@@ -8,7 +8,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: mini21.02OpenWrt
+name: mini22.03penWrt
 
 on:
   repository_dispatch:
