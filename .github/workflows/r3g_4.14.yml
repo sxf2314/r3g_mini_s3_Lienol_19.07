@@ -9,7 +9,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: r3g_5.10penWrt
+name: r3g_4.14penWrt
 
 on:
   repository_dispatch:
@@ -21,10 +21,10 @@ on:
         default: 'false'
 
 env:
-  REPO_URL: https://github.com/sxf2314/padavanonly-_immortalwrt
-  REPO_BRANCH: master
+  REPO_URL: https://github.com/immortalwrt/immortalwrt
+  REPO_BRANCH: openwrt-18.06
   FEEDS_CONF: feeds.conf.default
-  CONFIG_FILE: r3g_5.10.config
+  CONFIG_FILE: r3g_4.14.config
   DIY_P1_SH: diy-part1.sh
   DIY_P2_SH: diy-part2.sh
   UPLOAD_BIN_DIR: false
